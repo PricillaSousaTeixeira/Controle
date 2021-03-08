@@ -1,10 +1,36 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit; 
+    font-size: 100%;
+    vertical-align: baseline;
+} 
+
 
 body{
-    background:#FAEBD7;
+	background: linear-gradient(45deg, #8a86c3, #2d1c78);
+	min-height:100vw; 
+	min-width: 100vw;
 }
+
 #main{
-    position:relative;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	flex-direction: column;
 }
+
+.conteiner {
+	position: relative;
+	top:-100px;
+	z-index: 1;
+}
+
 	/*parte do controle onde se encotra os botoes de selec start*/
 .quadrado{
 	background-color: #A9A9A9;
