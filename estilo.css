@@ -7,12 +7,12 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 border: 0;
-vertical-align: baseline;
 }
 body{
-background: linear-gradient(45deg, #8a86c3, #2d1c78) ;
-background-repeat: no-repeat;
-min-height:100vh;
+background:linear-gradient(45deg, #8a86c3, #2d1c78);
+background-repeat: no-repeat, repeat;
+min-height: 100vh;
+min-width: 100vw;
 }
 section#main{
 display: flex;
